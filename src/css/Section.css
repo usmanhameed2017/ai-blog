@@ -1,0 +1,76 @@
+/* General styling for the section */
+.sticker-section {
+    background-color: #e6f0ff	;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .sticker-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .sticker-item {
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 20px 40px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(0.9);
+    animation: bounce 2s infinite;
+    transition: transform 0.3s ease;
+  }
+  
+  .sticker-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .sticker-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Animations */
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Sticker variations */
+  .sticker1 {
+    /* background-color: #1473c0; */
+    background: linear-gradient(135deg, #4628cc 0%, #9c1bb6 50%, #cc28c4 100%);
+  }
+  
+  .sticker2 {
+    /* background-color: #2f855a;  */
+    background: linear-gradient(135deg, #4628cc 0%, #9c1bb6 50%, #cc28c4 100%);
+  }
+  
+  .sticker3 {
+    /* background-color: #FF5722;  */
+    background: linear-gradient(135deg, #4628cc 0%, #9c1bb6 50%, #cc28c4 100%);
+  }
+  

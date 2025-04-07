@@ -1,0 +1,57 @@
+.ai-details-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #4628cc 0%, #9c1bb6 50%, #cc28c4 100%);
+    color: white;
+    text-align: center;
+}
+
+.section-header {
+    margin-bottom: 40px;
+}
+
+.section-title_for_ai_details {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 1.5rem;
+    color: #f3f4f6;
+    font-weight: 300;
+}
+
+.section-content {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.content-paragraph {
+    font-size: 1.2rem;
+    color: #f0f4f8;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.content-paragraph:hover {
+    color: #ffdd57;
+    transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .section-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .content-paragraph {
+        font-size: 1rem;
+    }
+}
