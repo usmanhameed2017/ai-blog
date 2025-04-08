@@ -30,7 +30,7 @@ function Hero() {
                 </Row>
                 <Row>
                     <Col>
-                        <Button variant="primary"  size="lg" className="my-gradient-btn me-2" 
+                        <Button variant="primary"  size="lg" className="my-gradient-btn me-2 mb-3" 
                         href='https://www.digitalocean.com/resources/articles/ai-blogs' target='self'>
                         Explore the Future</Button>
 
