@@ -30,11 +30,11 @@ function Hero() {
                 </Row>
                 <Row>
                     <Col>
-                        <Button variant="primary"  size="lg" className="my-gradient-btn me-2 mb-3" 
+                        <Button variant="primary"  size="lg" className="my-gradient-btn me-2" 
                         href='https://www.digitalocean.com/resources/articles/ai-blogs' target='self'>
                         Explore the Future</Button>
 
-                        <Button variant="outline-light" size="lg" 
+                        <Button variant="outline-light" size="lg" className='mt-3'
                         href='https://www.digitalocean.com/resources/articles/ai-blogs' target='self'>
                         Learn More</Button>
                     </Col>
